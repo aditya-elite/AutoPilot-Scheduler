@@ -1,0 +1,12 @@
+**/node_modules/
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+**/*.joblib
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+**/.env
+**/.git
+**/.claude

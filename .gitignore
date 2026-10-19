@@ -1,0 +1,68 @@
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# --- Python / backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ML Artifacts & Binary Models
+*.joblib
+*.pkl
+*.pickle
+app/ml/artifacts/*.joblib
+app/ml/artifacts/*.pkl
+backend/app/ml/artifacts/*.joblib
+backend/app/ml/artifacts/*.pkl
+!backend/app/ml/artifacts/.gitkeep
+
+# Databases & Local Storage
+*.db
+*.sqlite
+*.sqlite3
+autopilot_scheduler.db
+backend/autopilot_scheduler.db
+
+# --- Node / frontend ---
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Editors / IDEs / OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.claude/
+
+# --- Logs ---
+*.log
+logs/

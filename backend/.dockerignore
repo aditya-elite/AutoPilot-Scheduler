@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.joblib
+*.db
+*.sqlite
+*.sqlite3
+autopilot_scheduler.db
+.env
